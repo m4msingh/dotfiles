@@ -68,3 +68,4 @@ export BUNDLER_EDITOR=code
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
+eval "$(direnv hook zsh)"
